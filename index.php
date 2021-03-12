@@ -1,4 +1,3 @@
 <?php
-    include_once("connect.php");
-    echo "hello";
+    include_once "connect.php";
 ?>
