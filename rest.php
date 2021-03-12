@@ -12,7 +12,7 @@
        http_response_code(405);
    }
    function show_data($debug_mode){
-       $mydb = new db ("root","","6306021421112", $debug_mode);
+       $mydb = new db ("root","","6306021421112",$debug_mode);
        echo json_encode($mydb->query("select * from user"));
        $mydb->close();
    }
