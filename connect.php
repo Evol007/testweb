@@ -19,7 +19,7 @@
             $this->debug_text(print_r($data));
             return $data;
         }
-        function debug_text($text){
+        function debug_text($text ){
             if($this->debug){
                 echo "Debug: {$text}<br>";
             }
